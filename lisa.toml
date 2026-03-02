@@ -1,0 +1,6 @@
+# lisa.toml
+# supported types: string, int, float, bool, inline table (json)
+enable_dark_mode = true
+max_retries = 4
+welcome_message = "hello from mona"
+feature_flags = { new_checkout = false, referral_program = true }
