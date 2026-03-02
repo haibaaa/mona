@@ -54,10 +54,10 @@ def run_sync():
 def _print_diff(result: dict):
     added = result.get("added", [])
     updated = result.get("updated", [])
-    removed = result.get("removed", [])
+    removed = result.get("deleted", [])
 
     if not any([added, updated, removed]):
-        print("✓ already in sync, no changes made")
+        print("already in sync, no changes made")
         return
 
     if added:

@@ -19,6 +19,7 @@ build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
 packages = ["mona"]
+artifacts = ["mona/templates/*"]
 
 [tool.basedpyright]
 typeCheckingMode = "standard" # or "strict", "basic"
