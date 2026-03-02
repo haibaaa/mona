@@ -5,9 +5,11 @@ description = "CLI tool for syncing local config files to a Lisa remote config s
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "build>=1.4.0",
     "click>=8.3.1",
     "python-dotenv>=1.2.2",
     "requests>=2.32.5",
+    "twine>=6.2.0",
 ]
 
 [project.scripts]
